@@ -1,0 +1,226 @@
+# Copy Library — Kelas Maya
+**Extracted:** 2026-03-27
+**Reformatted:** 2026-03-27
+
+---
+
+## Toast
+
+| component | case | copy | user | status |
+|-----------|------|------|------|--------|
+| toast — success | kelas dibuat | `Kelas Anda Telah Dibuat!` | guru | approved |
+| toast — success | pengaturan kelas diperbarui | `Pengaturan kelas berhasil diperbarui!` | guru | approved |
+| toast — success | kelas disalin | `Kelas berhasil disalin!` | guru | approved |
+| toast — success | kelas dihapus | `Kelas berhasil dihapus.` | guru | approved |
+| toast — success | murid dihapus | `Murid berhasil dihapus.` | guru | approved |
+| toast — success | tautan kelas disalin | `Tautan kelas berhasil disalin!` | guru | approved |
+| toast — success | pengumuman dibuat | `Pengumuman berhasil dibuat!` | guru | approved |
+| toast — success | pengumuman diedit | `Pengumuman berhasil diedit!` | guru | approved |
+| toast — success | pengumuman dihapus | `Pengumuman berhasil dihapus.` | guru | approved |
+| toast — success | pengumuman disematkan | `Pengumuman berhasil disematkan!` | guru | approved |
+| toast — success | sematan dilepas | `Pengumuman berhasil dilepas dari sematan!` | guru | approved |
+| toast — success | topik diaktifkan | `Topik berhasil diaktifkan!` | guru | approved |
+| toast — success | topik disembunyikan | `Topik berhasil disembunyikan!` | guru | approved |
+| toast — success | topik diubah | `Topik berhasil diubah!` | guru | approved |
+| toast — success | topik dihapus | `Topik berhasil dihapus.` | guru | approved |
+| toast — success | urutan pembelajaran disimpan | `Urutan pembelajaran berhasil disimpan!` | guru | approved |
+| toast — success | materi ditambahkan | `Materi berhasil ditambahkan!` | guru | approved |
+| toast — success | materi diubah | `Materi berhasil diubah!` | guru | approved |
+| toast — success | unduhan selesai | `Unduh berhasil! Cek dokumenmu di folder unduhan.` | all | approved |
+| toast — error | kendala sistem umum | `Terdapat kendala sistem. Silakan coba beberapa saat lagi.` | all | approved |
+| toast — error | kendala simpan | `Terjadi kendala saat menyimpan. Mohon coba lagi.` | all | approved |
+| toast — error | kendala hapus kelas | `Terjadi kendala saat menghapus kelas. Mohon coba lagi.` | guru | approved |
+| toast — error | kendala hapus murid | `Terjadi kendala saat menghapus murid. Mohon coba lagi.` | guru | approved |
+| toast — error | kendala salin kelas | `Terjadi kendala saat menyalin kelas. Mohon coba lagi.` | guru | approved |
+| toast — error | kendala hapus pengumuman | `Terjadi kendala saat menghapus pengumuman. Mohon coba lagi.` | guru | approved |
+| toast — error | kendala sematkan | `Terjadi kendala saat menyematkan. Mohon coba lagi.` | guru | approved |
+| toast — error | kendala aktifkan topik | `Terjadi kendala saat mengaktifkan topik. Mohon coba lagi.` | guru | approved |
+| toast — error | kendala hapus topik | `Terjadi kendala saat menghapus topik. Mohon coba lagi.` | guru | approved |
+| toast — error | kendala sembunyikan topik | `Terjadi kendala saat menyembunyikan topik. Mohon coba lagi.` | guru | approved |
+| toast — error | kendala gabung kelas | `Ada kendala saat bergabung ke kelas. Tolong coba lagi.` | murid | approved |
+| toast — error | unduhan gagal | `Unduhan gagal. Silakan coba lagi.` | all | approved |
+| toast — error | materi tidak bisa ditayangkan | `Materi tidak bisa ditayangkan. Silakan hapus dan cari materi pengganti.` | guru | approved |
+
+---
+
+## Banner
+
+| component | case | copy | user | status |
+|-----------|------|------|------|--------|
+| banner — restriction notice | batas sematan pengumuman | `Anda hanya bisa menyematkan maksimal 2 pengumuman.` | guru | approved |
+| banner — informational | mode pratinjau murid | `Ini adalah tampilan pembelajaran yang akan dilihat murid Anda.` | guru | approved |
+| banner — informational | info salin kelas | `Anda bisa menghemat waktu persiapan mengajar dengan menyalin kelas beserta pembelajaran, dan/atau murid yang terdaftar.` | guru | approved |
+| banner — warning | salin kelas belum lengkap | `Lengkapi pembelajaran dan/atau daftar murid untuk menyalin kelas.` | guru | approved |
+| banner — warning | filter pencarian belum dipilih | `Pastikan Anda sudah memilih kelas dan mata pelajaran di bagian filter pencarian.` | guru | approved |
+| banner — informational | data tidak sesuai | `Jika ada kesalahan data, laporkan ke tim kami melalui Pusat Bantuan.` | all | approved |
+
+---
+
+## Empty State
+
+| component | case | copy — title | copy — description | copy — CTA | user | status |
+|-----------|------|-------------|-------------------|-----------|------|--------|
+| empty state | tidak ada kelas | `Belum Ada Kelas` | `Buat kelas pertama Anda untuk mulai menyiapkan pembelajaran.` | `Buat Kelas Baru` | guru | approved |
+| empty state | tidak ada murid di kelas | `Belum Ada Murid` | `Murid yang sudah bergabung ke kelas Anda akan ditampilkan di sini.` | `Undang Murid` | guru | approved |
+| empty state | tidak ada tugas mendatang | `Belum Ada Tugas` | `Tugas terdekat yang perlu dikerjakan murid Anda akan ditampilkan di sini.` | — | guru | approved |
+| empty state | tidak ada pengumuman | `Belum Ada Pengumuman` | `Belum ada pengumuman. Buat pengumuman baru agar informasi penting dapat dilihat murid.` | `Buat Pengumuman Baru` | guru | approved |
+| empty state | belum ada pembelajaran | `Rencanakan Pembelajaran Kelas Ini` | `Bagikan materi untuk dipelajari murid secara mandiri · Berikan tugas untuk memeriksa pemahaman murid · Atur urutan pembelajaran agar tujuan pembelajaran tercapai` | `Mulai Siapkan Pembelajaran` | guru | approved |
+| empty state | tidak ada materi terpilih | `Belum Ada Materi Terpilih` | `Materi yang Anda pilih dari Sumber Belajar akan ditampilkan di sini.` | — | guru | approved |
+| empty state | tidak ada kelas | `Belum Ada Kelas` | `Kamu belum tergabung di kelas mana pun. Masukkan kode kelas dari gurumu untuk mulai belajar.` | `Gabung Kelas` | murid | approved |
+| empty state | tidak ada pembelajaran | `Belum Ada Pembelajaran` | `Sebentar, ya, gurumu sedang menyiapkan materi untuk kelas ini.` | `Sambil menunggu, lihat-lihat Ruang Murid, yuk!` | murid | approved |
+| empty state | tidak ada pengumuman | — | `Semua pengumuman dari Guru nanti akan muncul di sini. Cek lagi nanti, ya!` | — | murid | approved |
+| empty state | tidak ada tugas | — | `Semua tugas yang perlu kamu kerjakan nanti akan muncul di sini.` | — | murid | approved |
+| empty state | materi tidak tersedia | `Wah, materi ini sudah tidak tersedia` | `Coba pilih materi lain untuk dipelajari, ya.` | — | murid | approved |
+| empty state | topik tidak tersedia | `Wah, topik pembelajaran ini sudah tidak tersedia` | `Coba pilih topik lain untuk dipelajari, ya.` | — | murid | approved |
+| empty state | gagal muat pembelajaran | `Maaf, ada kendala saat memuat pembelajaran` | `Coba muat ulang sebentar lagi, ya. Terima kasih!` | `Muat Ulang` | murid | approved |
+| empty state | hasil pencarian kosong | `"{kata_kunci}" Tidak Ditemukan` | `Pastikan tidak ada kesalahan ketik atau cari kata kunci lain.` | — | all | approved |
+
+---
+
+## Confirmation Dialog
+
+| component | case | copy — title | copy — body | copy — confirm | copy — cancel | user | status |
+|-----------|------|-------------|------------|---------------|--------------|------|--------|
+| confirmation dialog | hapus kelas | `Hapus Kelas {nama_kelas}?` | `Jika dihapus, murid tidak dapat mengakses seluruh materi, tugas, atau pengumuman yang telah Anda berikan di kelas ini. Kelas yang sudah dihapus tidak dapat dikembalikan lagi.` | `Ya, Hapus` | `Batal` | guru | approved |
+| confirmation dialog | hapus pengumuman | `Hapus Pengumuman?` | `Pengumuman yang sudah dihapus tidak dapat dikembalikan lagi.` | `Ya, Hapus` | `Batal` | guru | approved |
+| confirmation dialog | sembunyikan topik | `Sembunyikan Topik {nama_topik}?` | `Topik yang disembunyikan tidak akan bisa dilihat oleh murid sebelum diaktifkan kembali.` | `Ya, Sembunyikan` | `Batal` | guru | approved |
+| confirmation dialog | aktifkan topik | `Aktifkan Topik {nama_topik}?` | `Setelah aktif, murid Anda dapat melihat topik ini. Pastikan semua materi dan tugas sudah siap.` | `Ya, Aktifkan` | `Batal` | guru | approved |
+| confirmation dialog | hapus topik | `Hapus Topik {nama_topik} dari {nama_kelas}?` | `Jika dihapus, murid tidak dapat melihat seluruh materi atau tugas yang telah Anda berikan di topik ini.` | `Ya, Hapus` | `Batal` | guru | approved |
+| confirmation dialog | hapus murid dari kelas | `Hapus {nama_murid} dari kelas {nama_kelas}?` | — | `Ya, Hapus` | `Batal` | guru | approved |
+| confirmation dialog | tinggalkan materi | `Materi belum dipelajari. Tetap lanjut?` | — | `Tetap Lanjut` | `Pelajari Dulu` | murid | approved |
+
+---
+
+## Button
+
+| component | case | copy | user | status |
+|-----------|------|------|------|--------|
+| button — primary aksi tunggal | simpan form | `Simpan` | all | approved |
+| button — primary aksi tunggal | gabung kelas | `Gabung` | murid | approved |
+| button — primary aksi tunggal | masuk akun | `Masuk` | all | approved |
+| button — primary aksi tunggal | ambil materi | `Ambil Materi` | guru | approved |
+| button — primary aksi tunggal | cari materi | `Cari Materi` | guru | approved |
+| button — primary aksi tunggal | muat ulang | `Muat Ulang` | all | approved |
+| button — primary aksi+objek | buat kelas baru | `Buat Kelas Baru` | guru | approved |
+| button — primary aksi+objek | buat pengumuman | `Buat Pengumuman` | guru | approved |
+| button — primary aksi+objek | buat topik | `Buat Topik` | guru | approved |
+| button — primary aksi+objek | undang murid | `Undang Murid` | guru | approved |
+| button — primary aksi+objek | mulai belajar | `Mulai Belajar` | murid | approved |
+| button — primary aksi+objek | mulai siapkan pembelajaran | `Mulai Siapkan Pembelajaran` | guru | approved |
+| button — primary aksi+objek | salin kode kelas | `Salin Kode Kelas` | guru | approved |
+| button — primary aksi+objek | bagikan tautan | `Bagikan Tautan` | guru | approved |
+| button — secondary | lihat kelas saya | `Lihat Kelas Saya` | guru | approved |
+| button — secondary | lihat semua murid | `Lihat Semua Murid` | guru | approved |
+| button — secondary | lihat semua teman | `Lihat Semua Teman` | murid | approved |
+| button — secondary | lihat semua kelas | `Lihat Semua Kelas` | all | approved |
+| button — secondary | eksplor bahan belajar | `Eksplor Bahan Belajar` | all | approved |
+| button — secondary | kembali ke kelas | `Kembali ke Kelasmu` | murid | approved |
+| button — destructive confirm | hapus | `Ya, Hapus` | guru | approved |
+| button — destructive confirm | sembunyikan | `Ya, Sembunyikan` | guru | approved |
+| button — destructive confirm | aktifkan | `Ya, Aktifkan` | guru | approved |
+| button — cancel | batal | `Batal` | all | approved |
+| button — navigation | sebelumnya | `Sebelumnya` | murid | approved |
+| button — navigation | selanjutnya | `Selanjutnya` | murid | approved |
+| button — navigation | lanjutkan | `Lanjutkan` | murid | approved |
+| button — dismissal | selesai | `Selesai` | murid | approved |
+| button — dismissal | buka tautan | `Buka Tautan` | murid | approved |
+| button — dismissal | lihat dokumen | `Lihat Dokumen` | murid | approved |
+| button — dismissal | pelajari dulu | `Pelajari Dulu` | murid | approved |
+| button — dismissal | daftar masuk | `Daftar/Masuk dengan Akun Belajar.id` | all | approved |
+
+---
+
+## Navigation Label
+
+| component | case | copy | user | status |
+|-----------|------|------|------|--------|
+| navigation — sidebar desktop | beranda | `Beranda` | all | approved |
+| navigation — sidebar desktop | kelas (guru) | `Kelas Saya` | guru | approved |
+| navigation — sidebar desktop | kelas (murid) | `Kelasku` | murid | approved |
+| navigation — sidebar desktop | pembelajaran | `Pembelajaran` | all | approved |
+| navigation — sidebar desktop | bantuan | `Butuh Bantuan?` | all | approved |
+| navigation — bottom nav mobile | beranda | `Beranda` | murid | approved |
+| navigation — bottom nav mobile | kelas | `Kelasku` | murid | approved |
+| navigation — bottom nav mobile | pembelajaran | `Pembelajaran` | murid | approved |
+| navigation — bottom nav mobile | bantuan | `Bantuan` | murid | approved |
+| navigation — bottom nav mobile | akun | `Akunku` | murid | approved |
+| navigation — dropdown context menu | atur kelas | `Atur Kelas` | guru | approved |
+| navigation — dropdown context menu | salin kelas | `Salin Kelas` | guru | approved |
+| navigation — dropdown context menu | bagikan kode kelas | `Bagikan Kode Kelas` | guru | approved |
+| navigation — dropdown context menu | arsipkan | `Arsipkan` | guru | approved |
+| navigation — dropdown context menu | hapus | `Hapus` | guru | approved |
+| navigation — dropdown context menu | ubah topik | `Ubah Topik` | guru | approved |
+| navigation — dropdown context menu | sembunyikan | `Sembunyikan` | guru | approved |
+| navigation — dropdown context menu | aktifkan | `Aktifkan` | guru | approved |
+| navigation — dropdown context menu | sematkan | `Sematkan` | guru | approved |
+| navigation — dropdown context menu | lepas sematan | `Lepas Sematan` | guru | approved |
+| navigation — dropdown context menu | ubah materi | `Ubah Materi` | guru | approved |
+| navigation — dropdown context menu | keluar | `Keluar` | all | approved |
+| navigation — dropdown context menu | akun saya | `Akun Saya` | all | approved |
+
+---
+
+## Placeholder
+
+| component | case | copy | user | status |
+|-----------|------|------|------|--------|
+| placeholder — input | nama mata pelajaran | `Ketik atau cari pelajaran` | guru | approved |
+| placeholder — input | tahun ajaran | `2025/2026` | guru | approved |
+| placeholder — input | kode kelas | `Minta kode kelas ke Guru kamu, lalu masukan di sini.` | murid | approved |
+| placeholder — input | nama topik | `Contoh: Bilangan Pecahan` | guru | approved |
+| placeholder — input | judul materi | `Contoh: Bilangan Bab dan Pecahan` | guru | approved |
+| placeholder — textarea | judul pengumuman | `Contoh: Pengingat deadline tugas untuk mapel IPA` | guru | approved |
+| placeholder — textarea | isi pengumuman | `Sampaikan pengumuman secara singkat` | guru | approved |
+| placeholder — textarea | instruksi pembelajaran | `Buat instruksi yang mudah dimengerti murid.` | guru | approved |
+| placeholder — textarea | tujuan pembelajaran | `Contoh: Menghitung luas permukaan dan volume benda-benda berbentuk lengkung...` | guru | approved |
+| placeholder — search | cari materi | `Cari materi berdasarkan kata kunci` | all | approved |
+| placeholder — search | pilih kelas penerima | `Pilih kelas yang akan menerima pengumuman` | guru | approved |
+
+---
+
+## Helper Text
+
+| component | case | copy | user | status |
+|-----------|------|------|------|--------|
+| helper text — instruksi field | nama kelas | `Nama ini akan menjadi identifikasi kelas Anda.` | guru | approved |
+| helper text — instruksi field | nama kelas (murid) | `Nama kelas menjadi identifikasi kelasmu.` | murid | approved |
+| helper text — instruksi field | isi pengumuman | `Gunakan kalimat yang mudah dipahami karena informasi ini akan dibaca oleh murid.` | guru | approved |
+| helper text — instruksi field | tautan materi | `Pastikan tautan mengarah ke halaman yang tepat.` | guru | approved |
+| helper text — instruksi field | kode kelas | `Bagikan kode ini agar murid dapat bergabung ke kelas Anda.` | guru | approved |
+| helper text — instruksi field | pilih kelas materi | `Pilih kelas yang ingin ditambahkan materi.` | guru | approved |
+| helper text — instruksi field | opsional | `Opsional` | all | approved |
+| helper text — legal consent | login wall | `Dengan masuk ke akun, Anda dianggap telah memahami dan menyetujui Kebijakan Privasi yang berlaku.` | all | approved |
+| helper text — legal consent | landing page | `Dengan Masuk ke akun, berarti Anda telah memahami dan menyetujui Syarat dan Ketentuan serta Kebijakan Privasi yang berlaku.` | all | approved |
+
+---
+
+## Validation Error
+
+| component | case | copy | user | status |
+|-----------|------|------|------|--------|
+| validation error — wajib diisi | nama kelas | `Nama kelas wajib diisi` | guru | approved |
+| validation error — wajib diisi | mata pelajaran | `Mata pelajaran wajib diisi` | guru | approved |
+| validation error — max karakter | nama kelas 65 | `Nama kelas maksimal 65 karakter` | guru | approved |
+| validation error — max karakter | nama kelas 100 | `Nama kelas maksimal 100 karakter` | guru | approved |
+| validation error — tidak ditemukan | mata pelajaran | `Belum ada mapel dengan nama ini` | guru | approved |
+| validation error — wajib diisi | kolom kosong (murid) | `Kolom ini belum diisi, yuk dilengkapi!` | murid | approved |
+| validation error — tidak ditemukan | kode kelas | `Kode kelas tidak ditemukan. Coba periksa kembali, lalu cari kelas dengan klik "Gabung Kelas".` | murid | approved |
+| validation error — tidak ditemukan | kode tidak valid | `Kode tidak ditemukan. Coba periksa kembali.` | murid | approved |
+
+---
+
+## Badge / Status Label
+
+| component | case | copy | user | status |
+|-----------|------|------|------|--------|
+| badge — role identitas | guru | `Guru` | guru | approved |
+| badge — role identitas | murid | `Murid` | murid | approved |
+| badge — status konten | aktif | `Aktif` | guru | approved |
+| badge — status konten | tidak aktif | `Tidak Aktif` | guru | approved |
+| badge — status konten | diarsipkan | `Diarsipkan` | guru | approved |
+| badge — status konten | beta | `Beta` | all | approved |
+| badge — status aksi | dipilih | `Dipilih` | all | approved |
+| badge — status aksi | dipilih terkonfirmasi | `Dipilih ✓` | all | approved |
+| badge — status aksi | diambil | `Diambil` | guru | approved |
+| badge — status aksi | ditambahkan | `Ditambahkan` | guru | approved |
+| badge — status aksi | opsional | `Opsional` | all | approved |
