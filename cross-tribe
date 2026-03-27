@@ -1,0 +1,207 @@
+# Copy Library — Pattern Library (Cross-tribe)
+**Extracted:** 2026-03-27
+**Reformatted:** 2026-03-27
+
+---
+
+## Toast
+
+| component | case | copy | user | status |
+|-----------|------|------|------|--------|
+| toast — success | materi ditambahkan | `Materi berhasil ditambahkan!` | all | approved |
+| toast — success | pengumuman dibuat | `Pengumuman berhasil dibuat!` | guru | approved |
+| toast — error | kendala sistem umum | `Terdapat kendala sistem. Silakan coba beberapa saat lagi.` | all | approved |
+| toast — action | tutup | `Tutup` | all | approved |
+| toast — action | lihat koleksi | `Lihat Koleksi` | all | approved |
+
+---
+
+## Confirmation Dialog
+
+| component | case | copy — title | copy — body | copy — confirm | copy — cancel | user | status |
+|-----------|------|-------------|------------|---------------|--------------|------|--------|
+| confirmation dialog | hapus koleksi | `Hapus Koleksi` | `Apakah kamu yakin ingin menghapus koleksi ini?` | `Ya, Hapus` | `Batal` | all | approved |
+| confirmation dialog | konfirmasi umum | `Konfirmasi` | — | `Lanjut` | `Batal` | all | approved |
+| confirmation dialog | tinggalkan kurasi | — | — | `Lanjutkan Kurasi` | `Tinggalkan Kurasi` | all | approved |
+| confirmation dialog | aktifkan item | — | — | `Ya, Aktifkan` | `Batal` | all | approved |
+
+---
+
+## Error State
+
+| component | case | copy — title | copy — CTA | user | status |
+|-----------|------|-------------|-----------|------|--------|
+| error state — tidak punya akses | 401 | `Anda Tidak Memiliki Akses` | `Kembali ke Beranda` | all | approved |
+| error state — tidak ditemukan | 404 | `Halaman Tidak Ditemukan` | `Kembali ke Beranda` | all | approved |
+| error state — kendala sistem | 406/500/503/509 | `Terdapat Kendala Sistem` | `Muat Ulang` | all | approved |
+| error state — gangguan koneksi | 401/405 | `Terdapat Gangguan Koneksi` | `Muat Ulang` | all | approved |
+
+---
+
+## Loading State
+
+| component | case | copy — title | copy — body | copy — tip | user | status |
+|-----------|------|-------------|------------|-----------|------|--------|
+| loading state — general | memuat halaman | — | `Tunggu sebentar jangan terburu / Proses memuat demi tampilan yang seru` | `Pastikan koneksi internet Anda cepat dan stabil agar pemuatan berjalan lancar.` | all | approved |
+| loading state — dokumen besar | memuat dokumen | `Dokumen Sedang Dimuat` | `Kami membutuhkan waktu untuk memuat dokumen dengan ukuran besar. Mohon tunggu sebentar.` | `Pastikan koneksi internet stabil dan lancar agar dokumen dapat segera dimuat` | all | approved |
+| loading state — named instance | memuat rapor | `Memuat Rapor Daerah {nama_kabupaten}` | — | — | all | approved |
+
+---
+
+## Empty State
+
+| component | case | copy — title | copy — description | copy — CTA | user | status |
+|-----------|------|-------------|-------------------|-----------|------|--------|
+| empty state | tidak ada tugas mendatang | `Belum Ada Tugas` | `Tugas terdekat yang perlu dikerjakan murid Anda akan ditampilkan di sini.` | — | guru | approved |
+| empty state | tidak ada murid di kelas | `Belum Ada Murid` | `Murid yang sudah bergabung ke kelas Anda akan ditampilkan di sini.` | `Undang Murid` | guru | approved |
+| empty state | tidak ada kelas | `Belum Ada Kelas` | `Buat kelas pertama Anda untuk mulai menyiapkan pembelajaran.` | `Buat Kelas Baru` | guru | approved |
+| empty state | hasil pencarian kosong | `Tidak Ada Hasil yang Sesuai` | `Coba periksa kembali ejaanmu atau gunakan kata kunci lain` | — | all | approved |
+| empty state | istilah glossary tidak ditemukan | `"{kata_kunci}" Tidak Ditemukan` | `Pastikan tidak ada kesalahan ketik atau coba kata kunci lain.` | — | all | approved |
+| empty state | data belum tersedia | `Data Induk Pendidikan Tinggi akan segera hadir` | `Silakan kembali ke Beranda atau lihat Data Induk Pendidikan lainnya.` | — | all | approved |
+
+---
+
+## Button
+
+| component | case | copy | user | status |
+|-----------|------|------|------|--------|
+| button — navigation | halaman sebelumnya | `Halaman Sebelumnya` | all | approved |
+| button — navigation | halaman selanjutnya | `Halaman Selanjutnya` | all | approved |
+| button — navigation | kembali ke atas | `Kembali ke atas` | all | approved |
+| button — secondary | lihat semua | `Lihat Semua` | all | approved |
+| button — secondary | selengkapnya | `Selengkapnya` | all | approved |
+| button — secondary | putar koleksi | `Putar Koleksi` | all | approved |
+| button — secondary | tambah materi | `Tambah Materi` | guru | approved |
+| button — secondary | unduh materi | `Unduh Materi` | all | approved |
+| button — secondary | salin | `Salin` | all | approved |
+| button — primary aksi tunggal | simpan | `Simpan` | all | approved |
+| button — primary aksi tunggal | simpan draf | `Simpan sebagai Draf` | all | approved |
+| button — primary aksi tunggal | kirim | `Kirim` | all | approved |
+| button — primary aksi tunggal | cetak | `Cetak` | all | approved |
+| button — primary aksi tunggal | periksa kembali | `Periksa Kembali` | all | approved |
+| button — secondary | buka detail | `Buka Detail` | all | approved |
+| button — secondary | tutup detail | `Tutup Detail` | all | approved |
+| button — secondary | tampilkan rincian | `Tampilkan Rincian` | all | approved |
+| button — secondary | tutup rincian | `Tutup Rincian` | all | approved |
+| button — secondary | bagikan | `Bagikan` | all | approved |
+| button — dismissal | saya mengerti | `Saya Mengerti` | all | approved |
+| button — dismissal | tutup | `Tutup` | all | approved |
+| button — dismissal | selesai | `Selesai` | all | approved |
+| button — dismissal | mulai | `Mulai` | all | approved |
+
+---
+
+## Navigation Label
+
+| component | case | copy | user | status |
+|-----------|------|------|------|--------|
+| navigation — sidebar desktop | beranda | `Beranda` | all | approved |
+| navigation — sidebar desktop | kelas saya | `Kelas Saya` | guru | approved |
+| navigation — sidebar desktop | kelasku | `Kelasku` | murid | approved |
+| navigation — sidebar desktop | pembelajaran | `Pembelajaran` | all | approved |
+| navigation — sidebar desktop | sumber belajar | `Sumber Belajar` | all | approved |
+| navigation — sidebar desktop | dasbor sumber belajar | `Dasbor Sumber Belajar` | all | approved |
+| navigation — sidebar desktop | latihan soal | `Latihan Soal` | all | approved |
+| navigation — sidebar desktop | dasbor latihan soal | `Dasbor Latihan Soal` | all | approved |
+| navigation — sidebar desktop | bantuan | `Butuh Bantuan?` | all | approved |
+| navigation — sidebar desktop | pusat bantuan | `Pusat Bantuan` | all | approved |
+| navigation — sidebar desktop | riwayat | `Riwayat` | all | approved |
+| navigation — sidebar desktop | konsol admin | `Konsol Admin` | admin | approved |
+| navigation — sidebar desktop | manajemen pengguna | `Manajemen Pengguna` | admin | approved |
+| navigation — dropdown context menu | akun saya | `Akun Saya` | all | approved |
+| navigation — dropdown context menu | keluar | `Keluar` | all | approved |
+| navigation — dropdown context menu | bagikan tautan | `Bagikan Tautan` | guru | approved |
+| navigation — dropdown context menu | salin kode kelas | `Salin Kode Kelas` | guru | approved |
+| navigation — dropdown context menu | daftar murid | `Daftar Murid` | guru | approved |
+| navigation — dropdown context menu | ubah | `Ubah` | guru | approved |
+| navigation — dropdown context menu | hapus | `Hapus` | guru | approved |
+| navigation — dropdown context menu | sembunyikan | `Sembunyikan` | guru | approved |
+| navigation — pagination | info halaman | `Halaman {n} dari {total}` | all | approved |
+| navigation — pagination | info hasil | `Menampilkan {n}-{m} dari {total} materi` | all | approved |
+| navigation — pagination | halaman sebelumnya | `Halaman Sebelumnya` | all | approved |
+| navigation — pagination | halaman selanjutnya | `Halaman Selanjutnya` | all | approved |
+
+---
+
+## Placeholder
+
+| component | case | copy | user | status |
+|-----------|------|------|------|--------|
+| placeholder — input | nama kelas | `Nama kelas menjadi identifikasi kelasmu` | guru | approved |
+| placeholder — search | cari istilah | `Cari istilah atau kata kunci` | all | approved |
+| placeholder — input | pilih topik materi | `Pilih topik untuk materi ini` | guru | approved |
+| placeholder — search | cari pelajaran | `Ketik atau cari pelajaran` | guru | approved |
+
+---
+
+## Helper Text
+
+| component | case | copy | user | status |
+|-----------|------|------|------|--------|
+| helper text — instruksi field | nama kelas | `Nama kelas menjadi identifikasi kelasmu.` | guru | approved |
+| helper text — instruksi field | tautan materi | `Pastikan tautan mengarah ke halaman yang tepat.` | guru | approved |
+| helper text — instruksi field | instruksi murid | `Buat instruksi yang mudah dimengerti murid.` | guru | approved |
+| helper text — instruksi field | auto-pilih kelas | `Otomatis terpilih dari daftar kelas Anda.` | guru | approved |
+
+---
+
+## Validation Error
+
+| component | case | copy | user | status |
+|-----------|------|------|------|--------|
+| validation error — wajib diisi | nama kelas | `Nama kelas wajib diisi` | guru | approved |
+| validation error — wajib diisi | mata pelajaran | `Mata pelajaran wajib diisi` | guru | approved |
+| validation error — max karakter | nama kelas 100 | `Nama kelas maksimal 100 karakter` | guru | approved |
+| validation error — max karakter | nama kelas 65 | `Nama kelas maksimal 65 karakter` | guru | approved |
+| validation error — tidak ditemukan | mata pelajaran | `Belum ada mapel dengan nama ini` | guru | approved |
+| validation error — buat baru | mapel baru | `Gunakan "{input}" sebagai mapel baru` | guru | approved |
+| validation error — tidak ditemukan | pencarian kosong | `Tidak Ada Hasil yang Sesuai` | all | approved |
+
+---
+
+## Interaction Instructions
+
+| component | case | copy — header | copy — instruction | copy — CTA | user | status |
+|-----------|------|--------------|-------------------|-----------|------|--------|
+| interaction instructions — drag to reorder | atur urutan topik | `Atur Urutan` | `Seret dan lepas urutan topik sesuai keinginan Anda.` | `Simpan` | guru | approved |
+| interaction instructions — drag to reorder | atur urutan materi | — | `Tarik dan gerakkan ikon untuk mengganti urutan pemutaran materi lalu klik Simpan` | `Simpan` | guru | approved |
+| interaction instructions — multi-file download | unduh rekomendasi PBD | `Rekomendasi PBD terdiri dari beberapa file` | `Untuk dapat mengunduh semua file, klik tombol "Allow" atau "Izinkan" di kotak yang muncul di pojok kiri layar seperti gambar berikut.` | `Saya Mengerti` | all | approved |
+| interaction instructions — search filter guidance | info hasil pencarian | — | `Menampilkan {n} materi dengan kata kunci "{kata_kunci}"` | — | all | approved |
+
+---
+
+## Badge / Status Label
+
+| component | case | copy | user | status |
+|-----------|------|------|------|--------|
+| badge — status konten | perlu diperiksa | `Perlu Diperiksa` | admin | approved |
+| badge — status konten | sedang diperiksa | `Sedang Diperiksa` | admin | approved |
+| badge — status konten | lolos | `Lolos` | admin | approved |
+| badge — status konten | tidak lolos | `Tidak Lolos` | admin | approved |
+| badge — status konten | perlu perbaikan | `Perlu Perbaikan` | admin | approved |
+| badge — status konten | diterbitkan | `Diterbitkan` | all | approved |
+| badge — status konten | diarsipkan | `Diarsipkan` | all | approved |
+| badge — status konten | sedang divalidasi | `Sedang Divalidasi` | admin | approved |
+| badge — status konten | ditolak | `Ditolak` | admin | approved |
+| badge — status konten | perlu ditugaskan | `Perlu Ditugaskan` | admin | approved |
+| badge — discovery flag | baru | `Baru!` | all | approved |
+
+---
+
+## Filter
+
+| component | case | copy | user | status |
+|-----------|------|------|------|--------|
+| filter — actions | terapkan filter | `Terapkan` | all | approved |
+| filter — actions | reset filter | `Reset Filter` | all | approved |
+| filter — controlled vocabulary | jalur formal | `Formal` | all | approved |
+| filter — controlled vocabulary | jalur nonformal | `Nonformal` | all | approved |
+| filter — controlled vocabulary | status negeri | `Negeri` | all | approved |
+| filter — controlled vocabulary | status swasta | `Swasta` | all | approved |
+| filter — controlled vocabulary | jenis kelamin laki-laki | `Laki-Laki` | all | approved |
+| filter — controlled vocabulary | jenis kelamin perempuan | `Perempuan` | all | approved |
+| filter — controlled vocabulary | jenjang PAUD | `PAUD` | all | approved |
+| filter — controlled vocabulary | jenjang SD | `SD/Sederajat` | all | approved |
+| filter — controlled vocabulary | jenjang SMP | `SMP/Sederajat` | all | approved |
+| filter — controlled vocabulary | jenjang SMA | `SMA/Sederajat` | all | approved |
+| filter — controlled vocabulary | jenjang SMK | `SMK/Sederajat` | all | approved |
