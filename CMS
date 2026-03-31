@@ -1,0 +1,181 @@
+# CMS — UX Copy Library
+**Figma source:** `bmFxQZKXjDwGtQxgZwe0gS` · Node `6061:79989` (Fase 2)
+**Extracted:** 2026-03-30
+**Scope:** CMS (Content Management System) — guru-facing platform only. No murid-facing screens found in this canvas.
+
+---
+
+## Toast
+
+| component | case | copy | user | status |
+|-----------|------|------|------|--------|
+| toast | success — progres kurasi tersimpan | Progres kurasi Anda akan berhasil **tersimpan**. | guru | approved |
+
+> **Note:** Only one toast variant found in canvas. Error toast not yet designed in this Fase 2 scope.
+
+---
+
+## Banner
+
+| component | case | copy | user | status |
+|-----------|------|------|------|--------|
+| banner | warning — institusi tidak sesuai (inline page) | **Pastikan Institusi Sudah Sesuai**<br>Kamu sedang masuk sebagai **Admin Institusi** di **{nama institusi}**. Untuk mengganti institusi, silakan kembali ke Beranda terlebih dahulu. | guru | approved |
+
+---
+
+## Confirmation Dialog
+
+| component | case | title | body | confirm button | cancel button | user | status |
+|-----------|------|-------|------|----------------|---------------|------|--------|
+| confirmation dialog | konfirmasi penugasan kurator | Konfirmasi Penugasan | Materi ini akan ditugaskan kepada kurator untuk proses kurasi. Pastikan penugasan sudah sesuai sebelum melanjutkan. | Tugaskan | Batal | guru | approved |
+| confirmation dialog | konfirmasi pernyataan sebelum kirim materi | Konfirmasi Pernyataan | Sebelum mengirimkan materi, pastikan Anda telah mempelajari syarat dan ketentuan penerbitan [di halaman ini.] | Lanjut | Batal | guru | approved |
+| confirmation dialog | kirim materi untuk diperiksa | Kirim Materi untuk Diperiksa? | Pengajuan materi akan diperiksa sebelum akhirnya terbit. Anda dapat diminta untuk melakukan perbaikan jika ada ketidaksesuaian dengan persyaratan. | Kirim | Periksa Kembali | guru | approved |
+| confirmation dialog | loloskan materi untuk divalidasi (kurator → admin) | Loloskan Materi untuk Divalidasi? | Materi yang lolos kurasi akan diteruskan ke admin organisasi untuk proses validasi berikutnya. Pastikan pemeriksaan sudah lengkap sebelum melanjutkan. | Ya, Loloskan | Batal | guru | approved |
+| confirmation dialog | loloskan materi untuk diterbitkan (validator → terbit) | Loloskan Materi untuk Diterbitkan? | Materi yang lolos validasi dari kedua validator akan langsung diterbitkan di Ruang Murid. Pastikan pemeriksaan sudah lengkap sebelum melanjutkan. | Ya, Loloskan | Batal | guru | approved |
+| confirmation dialog | kembalikan materi untuk diperbaiki — tahap kurasi | Kembalikan Materi untuk Diperbaiki? | Materi yang belum lolos kurasi perlu diperbaiki kembali oleh kreator. Pastikan arahan yang Anda berikan sudah jelas sebelum melanjutkan. | Ya, Minta Perbaikan | Batal | guru | approved |
+| confirmation dialog | kembalikan materi untuk diperbaiki — tahap validasi | Kembalikan Materi untuk Diperbaiki? | Materi yang belum lolos validasi perlu diperbaiki kembali oleh kreator. Pastikan arahan yang Anda berikan sudah jelas sebelum melanjutkan. | Ya, Minta Perbaikan | Batal | guru | approved |
+| confirmation dialog | tolak materi (permanen) | Tolak Materi Ini? | Materi yang ditolak tidak dapat diproses atau diperbaiki kembali. Pastikan Anda sudah memeriksa secara seksama sebelum melanjutkan. | Ya, Tolak | Batal | guru | approved |
+| confirmation dialog | tinggalkan proses kurasi | Tinggalkan Proses Kurasi? | Progres kurasi Anda akan otomatis tersimpan. Anda dapat kembali melanjutkannya kapan saja. | Lanjutkan Kurasi | Tinggalkan Kurasi | guru | approved |
+| confirmation dialog | warning — institusi tidak sesuai (dialog) | Pastikan Institusi Anda Sudah Sesuai | Saat ini Anda masuk sebagai **{peran}** dari institusi **{nama institusi}**. Jika perlu mengubah institusi, silakan ubah di Beranda. | Selanjutnya | Ubah Institusi | guru | approved |
+
+### Konfirmasi Pernyataan — Checkbox items
+
+| component | case | copy | user | status |
+|-----------|------|------|------|--------|
+| confirmation dialog | pernyataan hak cipta | Materi yang saya unggah tidak melanggar hak cipta, merupakan hasil orisinal, dan/atau telah mendapat izin dari pemilik hak cipta. | guru | approved |
+| confirmation dialog | pernyataan tanggung jawab isi | Saya bertanggung jawab penuh atas seluruh isi materi yang dikirimkan. | guru | approved |
+| confirmation dialog | pernyataan syarat dan ketentuan | Saya telah membaca dan menyetujui seluruh syarat dan ketentuan penerbitan materi. | guru | approved |
+
+---
+
+## Button
+
+| component | case | copy | user | status |
+|-----------|------|------|------|--------|
+| button | primary — kirim materi | Kirim untuk Diperiksa | guru | approved |
+| button | primary — simpan draf | Simpan sebagai Draf | guru | approved |
+| button | primary — tambah materi baru | Tambah Materi | guru | approved |
+| button | primary aksi+objek — lanjut langkah berikutnya | Selanjutnya | guru | approved |
+| button | primary aksi tunggal — kirim (dialog) | Kirim | guru | approved |
+| button | primary aksi+objek — tugaskan ke kurator | Tugaskan | guru | approved |
+| button | primary aksi+objek — loloskan materi | Ya, Loloskan | guru | approved |
+| button | primary aksi+objek — minta perbaikan | Ya, Minta Perbaikan | guru | approved |
+| button | primary aksi+objek — lanjutkan kurasi | Lanjutkan Kurasi | guru | approved |
+| button | destructive confirm — tolak permanen | Ya, Tolak | guru | approved |
+| button | cancel — umum | Batal | guru | approved |
+| button | cancel — periksa ulang sebelum kirim | Periksa Kembali | guru | approved |
+| button | cancel — tinggalkan alur kurasi | Tinggalkan Kurasi | guru | approved |
+| button | cancel — ubah institusi | Ubah Institusi | guru | approved |
+| button | navigation — lanjut dari dialog warning | Selanjutnya | guru | approved |
+| button | aksi sekunder — ganti dokumen | Ganti Dokumen | guru | approved |
+| button | aksi sekunder — tambah kategori | Tambah Kategori Lain | guru | approved |
+| button | aksi sekunder — tambah kreator | Tambah Kreator Lain | guru | approved |
+
+---
+
+## Link
+
+| component | case | copy | user | status |
+|-----------|------|------|------|--------|
+| link | inline — syarat dan ketentuan penerbitan | di halaman ini. | guru | approved |
+
+---
+
+## Navigation Label
+
+### Sidebar Desktop
+
+| component | case | copy | user | status |
+|-----------|------|------|------|--------|
+| navigation label | sidebar — beranda | Beranda | guru | approved |
+| navigation label | sidebar — sumber belajar (parent) | Sumber Belajar | guru | approved |
+| navigation label | sidebar — dasbor sumber belajar (child) | Dasbor Sumber Belajar | guru | approved |
+| navigation label | sidebar — bantuan | Butuh Bantuan? | guru | approved |
+
+### Tab Navigation
+
+| component | case | copy | user | status |
+|-----------|------|------|------|--------|
+| navigation label | tab — kurasi media | Media | guru | approved |
+| navigation label | tab — kurasi substansi | Substansi | guru | approved |
+
+### Form Step Navigation
+
+| component | case | copy | user | status |
+|-----------|------|------|------|--------|
+| navigation label | step 1 — kategori materi | Kategori Materi | guru | approved |
+| navigation label | step 2 — rincian materi | Rincian Materi | guru | approved |
+| navigation label | step 3 — informasi kreator | Informasi Kreator | guru | approved |
+
+---
+
+## Placeholder
+
+| component | case | copy | user | status |
+|-----------|------|------|------|--------|
+| placeholder | search — cari institusi/pengguna | Cari berdasarkan NPSN atau email | guru | approved |
+
+---
+
+## Helper Text
+
+| component | case | copy | user | status |
+|-----------|------|------|------|--------|
+| helper text | field instruction — format file unggah | File harus berformat PDF | guru | approved |
+| helper text | field instruction — tambah kategori materi | Silakan tambahkan kategori lain jika materi ini berhubungan dengan unit atau subunit lainnya | guru | approved |
+| helper text | field instruction — pilih tipe materi dulu | Silakan pilih tipe materi terlebih dahulu untuk melihat panduan | guru | approved |
+| helper text | field instruction — catatan kurator (textarea) | Ketik catatan untuk bantu kontributor memahami hasil pemeriksaan Anda | guru | approved |
+| helper text | legal consent — batas perbaikan | Pastikan Anda telah melakukan perbaikan sesuai dengan arahan karena proses perbaikan hanya dapat dilakukan satu kali. | guru | approved |
+| helper text | field instruction — hasil pemeriksaan dikirim | Hasil pemeriksaan akan dikirimkan kepada kontributor setelah seluruh proses kurasi dan validasi selesai dilakukan | guru | approved |
+| helper text | field instruction — kesimpulan pemeriksaan | Bagaimana hasil pemeriksaan Anda untuk kurasi tahap ini? | guru | approved |
+
+---
+
+## Validation Error
+
+| component | case | copy | user | status |
+|-----------|------|------|------|--------|
+| validation error | invalid format — file tidak sesuai ketentuan | Terjadi Kesalahan: Tidak sesuai ketentuan | guru | approved |
+
+---
+
+## Badge / Status Label
+
+| component | case | copy | user | status |
+|-----------|------|------|------|--------|
+| badge | content status — perlu perbaikan | Perlu Perbaikan | guru | approved |
+| badge | action status — file berhasil diunggah | Berhasil Terunggah | guru | approved |
+
+---
+
+## Filter / Controlled Vocabulary
+
+| component | case | copy | user | status |
+|-----------|------|------|------|--------|
+| filter | dropdown — jenis kurasi | Kurasi Media | guru | approved |
+| filter | dropdown — jenis kurasi | Kurasi Substansi | guru | approved |
+
+---
+
+## Interaction Instruction
+
+| component | case | copy | user | status |
+|-----------|------|------|------|--------|
+| interaction instructions | drag to reorder (textarea) | Ganti Dokumen | guru | approved |
+
+---
+
+## ⚠️ Copy Not Found in This Canvas
+
+The following component types from the extraction spec were **not found** in node `6061:79989` (Fase 2):
+
+| component type | note |
+|----------------|------|
+| Empty state (guru / murid) | No empty state screens designed in this section |
+| Error state full-page (404 / 401 / 500–503 / connection error) | Not present in Fase 2 scope |
+| Loading state (general / large document / named instance) | Not present in Fase 2 scope |
+| Tooltip (icon-only / disabled state) | Not found in visible text nodes |
+| Validation error — required / max characters / not found | Not found; only file format error present |
+| Badge — role identity (e.g. Kreator, Kurator, Admin) | Role labels present as data labels, not as standalone badge copy |
+
+> These may exist in other pages/sections of the CMS Figma file. Re-run extraction on other canvas sections if needed.
